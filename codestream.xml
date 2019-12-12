@@ -1,0 +1,6 @@
+<application>
+  <component name="CodeStream">
+    <option name="notifications" value="mentions" />
+    <option name="team" value="" />
+  </component>
+</application>
