@@ -8,13 +8,24 @@
   <action id="ChangesView.ShelveSilently" />
   <action id="CodotaJavaScriptSearch" />
   <action id="CodotaLeanSearchCrossRefAction" />
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta slash" />
+    <keyboard-shortcut first-keystroke="meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta c" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="CompileDirty">
     <keyboard-shortcut first-keystroke="meta f9" />
     <keyboard-shortcut first-keystroke="meta b" />
   </action>
+  <action id="CopyAbsolutePath" />
+  <action id="CopyPaths" />
   <action id="DBNavigator.Actions.DataEditor.DuplicateRecord" />
   <action id="DBNavigator.Actions.MainMenu.MethodExecutionHistory" />
+  <action id="DBNavigator.Actions.MainMenu.OpenSQLConsole" />
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift meta alt g" />
+  </action>
   <action id="Debug" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta back_space" />
@@ -63,6 +74,7 @@
     <keyboard-shortcut first-keystroke="meta alt l" />
     <keyboard-shortcut first-keystroke="shift ctrl f" />
   </action>
+  <action id="RemoteHostView.CopyPaths" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="shift f6" />
     <keyboard-shortcut first-keystroke="shift ctrl r" />
@@ -91,5 +103,6 @@
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="UnselectPreviousOccurrence" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
+  <action id="WelcomeScreen.CopyProjectPath" />
   <action id="openAssertEqualsDiff" />
 </keymap>
