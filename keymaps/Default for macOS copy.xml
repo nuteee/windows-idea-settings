@@ -98,6 +98,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
   <action id="SendEOF" />
+  <action id="SynchronizeCurrentFile">
+    <keyboard-shortcut first-keystroke="shift meta x" />
+  </action>
   <action id="TableResult.UnselectPreviousOccurrence" />
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
