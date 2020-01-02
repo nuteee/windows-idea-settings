@@ -1,5 +1,5 @@
 <application>
-  <component name="JavaCodeFoldingSettings">
-    <option name="collapseOneLineMethods" value="false" />
+  <component name="EditorSettings">
+    <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="true" />
   </component>
 </application>
