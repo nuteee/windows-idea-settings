@@ -1,12 +1,13 @@
 <application>
   <component name="RemoteServers">
-    <remote-server name="Heroku" type="heroku">
-      <configuration email="nuteee19@gmail.com" />
-    </remote-server>
     <remote-server name="Docker" type="docker">
       <configuration>
-        <option name="apiUrl" value="tcp://localhost:2375" />
+        <option name="apiUrl" value="unix:///var/run/docker.sock" />
+        <option name="certificatesPath" />
       </configuration>
+    </remote-server>
+    <remote-server name="Heroku" type="heroku">
+      <configuration email="nuteee19@gmail.com" />
     </remote-server>
   </component>
 </application>
